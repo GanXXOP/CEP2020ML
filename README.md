@@ -2,11 +2,11 @@
 
 Prerequisites to be installed:
 
-tf-nightly==2.3.0.dev20200624
-pillow
-sqlalchemy
-flask
-flask_session
+tf-nightly==2.3.0.dev20200624  
+pillow  
+sqlalchemy  
+flask  
+flask_session  
 
 These can be installed via pip commands.
 
@@ -23,19 +23,19 @@ This is the front-end documentation of our art identification program.
 To run application.py (the application), you will need to set 2-3 environment variables after navigating to the directory that application.py is in.
 These are the relevant commands:
 
-1a (If using Powershell) $env:FLASK_APP = "application.py"
-1b (If using Command Prompt) set FLASK_APP = application.py
-1c (If using Mac) export FLASK_APP = application.py
+1a (If using Powershell) $env:FLASK_APP = "application.py"  
+1b (If using Command Prompt) set FLASK_APP = application.py  
+1c (If using Mac) export FLASK_APP = application.py  
 
-(Optional)
-2a (If using Powershell) $env:FLASK_DEBUG = 1
-2b (If using Command Prompt) set FLASK_DEBUG = 1
-2c (If using Mac) export FLASK_DEBUG = 1
+(Optional)  
+2a (If using Powershell) $env:FLASK_DEBUG = 1  
+2b (If using Command Prompt) set FLASK_DEBUG = 1  
+2c (If using Mac) export FLASK_DEBUG = 1  
 
-(IMPORTANT - This is the database with all user data in it)
-3a (If using Powershell) $env:DATABASE_URL = "postgres://trywaaukfhhecs:abfbb928be97641b94a827df3496ca06c24a1b518d0cca3b5237bdebc5b71131@ec2-52-6-143-153.compute-1.amazonaws.com:5432/d9e2oha1sh2bjv"
-3b (If using Command Prompt) set DATABASE_URL = postgres://trywaaukfhhecs:abfbb928be97641b94a827df3496ca06c24a1b518d0cca3b5237bdebc5b71131@ec2-52-6-143-153.compute-1.amazonaws.com:5432/d9e2oha1sh2bjv
-3c (If using Mac) export DATABASE_URL = "postgres://trywaaukfhhecs:abfbb928be97641b94a827df3496ca06c24a1b518d0cca3b5237bdebc5b71131@ec2-52-6-143-153.compute-1.amazonaws.com:5432/d9e2oha1sh2bjv
+(IMPORTANT - This is the database with all user data in it)  
+3a (If using Powershell) $env:DATABASE_URL = "postgres://trywaaukfhhecs:abfbb928be97641b94a827df3496ca06c24a1b518d0cca3b5237bdebc5b71131@ec2-52-6-143-153.compute-1.amazonaws.com:5432/d9e2oha1sh2bjv"  
+3b (If using Command Prompt) set DATABASE_URL = postgres://trywaaukfhhecs:abfbb928be97641b94a827df3496ca06c24a1b518d0cca3b5237bdebc5b71131@ec2-52-6-143-153.compute-1.amazonaws.com:5432/d9e2oha1sh2bjv  
+3c (If using Mac) export DATABASE_URL = "postgres://trywaaukfhhecs:abfbb928be97641b94a827df3496ca06c24a1b518d0cca3b5237bdebc5b71131@ec2-52-6-143-153.compute-1.amazonaws.com:5432/d9e2oha1sh2bjv  
 
 Finally, to begin running the application, just input "flask run" (excluding the inverted commas) and copy the link provided in the console
 onto a browser's URL bar. This will usually be 127.0.0.1:5000. 
