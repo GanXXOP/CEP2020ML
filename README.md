@@ -9,6 +9,8 @@ flask_session
 
 These can be installed via pip commands.
 
+Information such as image classes used and the accuracy of the model can be found in the Report PDF.
+
 The entire project including images used and the file structure required for the website to work can be found at https://drive.google.com/file/d/1cd90Zy4GGK05izpyU8MrDPaU7isrbUzu/view
 
 Reference images and categories in our project can be found at the folder "images" for all the downloaded, unsorted images.
